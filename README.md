@@ -3,11 +3,11 @@
 This is my final project which is about real-estate website, the tool used for this project was react and bootstrap.
 
 #the website incule this features:
--home
--about
--services
--bolg
--contact
+1.home
+2.about
+3.services
+4.bolg
+5.contact
 
 ![react1](https://user-images.githubusercontent.com/38365727/190221318-c55e6dbc-da49-4cfd-a5a3-51aee43dd017.PNG)
 
