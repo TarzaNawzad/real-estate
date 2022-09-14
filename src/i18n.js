@@ -1,25 +1,23 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import common_ku from './translation/ku/common.json';
+import common_en from './translation/en/common.json';
+import common_ar from './translation/ar/common.json';
+
 
 // the translations
 // (tip move them in a JSON file and import them,
 // or even better, manage them separated from your code: https://react.i18next.com/guides/multiple-translation-files)
 const resources = {
   en: {
-    translation: {
-      "Welcome to React": "Welcome to React and react-i18next"
-    }
+    common: common_en,
   },
   ku: {
-    translation: {
-      "Welcome to React": "بەخێربێیت بۆ ڕییاکت"
-    }
+   common: common_ku,
   },
-  Ar: {
-    translation: {
-      "Welcome to React": "marhaba"
-    }
-  },
+  ar: {
+    common: common_ar,
+  }
 };
 
 i18n

@@ -49,7 +49,7 @@ export const featured = [
   },
   {
     cover: "../images/hero/h6.png",
-    name: "Villa & Condo",
+    name: "Villa",
     total: "80 Property",
   },
 ]

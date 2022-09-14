@@ -1,9 +1,19 @@
 import React from "react"
 import Heading from "../../common/Heading"
 import "./hero.css"
+import { useTranslation } from 'react-i18next';
+
+
+
+
+
 
 
 const Hero = () => {
+
+  const { t, i18n } = useTranslation();
+
+
   return (
     <>
       <section className='hero'>
@@ -11,8 +21,13 @@ const Hero = () => {
           <Heading title='Search Your Dream Home ' subtitle='Find your dream house with us.' />
 
           <form className='flex'>
+
+            
+            
             <div className='box'>
-              <span>City/Street</span>
+           
+              
+              <span>{t('Welcome to React')}</span>
               <input type='text' placeholder='Location' />
             </div>
             <div className='box'>
