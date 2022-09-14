@@ -2,7 +2,7 @@
 
 This is my final project which is about real-estate website, the tool used for this project was react and bootstrap.
 
-#the website incule this features:
+The website incule this features:
 1.home
 2.about
 3.services
